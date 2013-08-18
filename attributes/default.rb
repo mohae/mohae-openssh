@@ -4,5 +4,5 @@ normal['openssh']['PermitRootLogin']      = 'no'
 normal['openssh']['LoginGraceTime']       = '5s'
 normal['openssh']['MaxAuthTries']         = 5
 normal['openssh']['MaxSession']           = 4
-normal['openssh']['AuthorizedKeyFile']    = '.ssh/authorized_keys'
+normal['openssh']['AuthorizedKeyFile']    = '.dssh/authorized_keys'
 normal['openssh']['PermitEmptyPasswords'] = 'no'
