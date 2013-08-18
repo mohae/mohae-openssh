@@ -1,8 +1,8 @@
-normal['openssh']['Port']                 = 1001
-normal['openssh']['Protocol']             = 2
-normal['openssh']['PermitRootLogin']      = 'no'
-normal['openssh']['LoginGraceTime']       = '5s'
-normal['openssh']['MaxAuthTries']         = 5
-normal['openssh']['MaxSession']           = 4
-normal['openssh']['AuthorizedKeyFile']    = '.dssh/authorized_keys'
-normal['openssh']['PermitEmptyPasswords'] = 'no'
+override['openssh']['Port']                 = 1001
+override['openssh']['Protocol']             = 2
+override['openssh']['PermitRootLogin']      = 'no'
+override['openssh']['LoginGraceTime']       = '5s'
+override['openssh']['MaxAuthTries']         = 5
+override['openssh']['MaxSession']           = 4
+override['openssh']['AuthorizedKeyFile']    = '.ssh/authorized_keys'
+override['openssh']['PermitEmptyPasswords'] = 'no'
