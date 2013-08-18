@@ -1,8 +1,8 @@
 
-override['openssh']['server']['Port']                 = 1001
-override['openssh']['server']['Protocol']             = 2
-override['openssh']['server']['PermitRootLogin']      = 'no'
-override['openssh']['server']['LoginGraceTime']       = '5s'
-override['openssh']['server']['MaxAuthTries']         = 5
-override['openssh']['server']['MaxSessions']           = 4
-override['openssh']['server']['PermitEmptyPasswords'] = 'no'
+default['openssh']['server']['port']                 = 1001
+default['openssh']['server']['protocol']             = 2
+default['openssh']['server']['login_grace_time']     = '5s'
+default['openssh']['server']['permit_root_login']      = 'no'
+default['openssh']['server']['max_auth_tries']         = 5
+default['openssh']['server']['max_sessions']           = 4
+default['openssh']['server']['permit_empty_passwords'] = 'no'
